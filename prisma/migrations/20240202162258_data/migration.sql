@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "Data" (
+    "id" SERIAL NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "data" TEXT NOT NULL,
+
+    CONSTRAINT "Data_pkey" PRIMARY KEY ("id")
+);
